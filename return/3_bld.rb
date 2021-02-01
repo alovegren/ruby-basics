@@ -8,5 +8,5 @@ end
 puts meal
 
 # We expect that this program will print 'Breakfast' because it is explicitly
-# returned inside of the meal method. This takes precedence over the implied
-# return of the last line within a method
+# returned inside of the meal method. The 'return' statement exits the method,
+# so the line with the string 'Dinner' is not even evaluated.
