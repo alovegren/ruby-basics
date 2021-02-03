@@ -1,0 +1,11 @@
+# 4_pets.rb
+
+pets = { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' }
+
+pets[:dog] << 'bowser'
+
+p pets
+
+# We can also use
+
+pets[:dog].push('tobit')
